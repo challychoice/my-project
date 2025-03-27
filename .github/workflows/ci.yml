@@ -35,7 +35,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: geezone/demo-app
-        registry: registry.hub.docker.com ## docker.io
+        registry: registry.ktnit.shop ## docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
          
